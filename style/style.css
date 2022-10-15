@@ -1,0 +1,49 @@
+body{
+    width: 61vh;
+}
+.topRight{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.topRight h1{
+    font-family: 'Raleway', sans-serif;
+}
+.topRight .title p{
+    font-family: 'Raleway', sans-serif;
+}
+.topRight img{
+    width: 14vh;
+    height: 14vh;
+}
+input{
+    border: 0px;
+    border-bottom: 2px solid gray;
+    margin: 10px;
+    width: 61vh;
+    font-family: 'Raleway', sans-serif;
+}
+select{
+    border: 0px;
+    border-bottom: 2px solid gray;
+    margin: 10px;
+    width: 61vh;
+    font-family: 'Raleway', sans-serif;
+}
+button{
+    float: right;
+    padding: 5px 20px;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+}
+.result{
+    margin: auto;
+    width: 60vh;
+    height: 30vh;
+    border: 1px solid gray;
+    margin-top: 3rem;
+    text-align: center;
+}
