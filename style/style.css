@@ -1,5 +1,6 @@
 body{
     width: 61vh;
+    height: max-content;
 }
 .topRight{
     display: flex;
@@ -48,9 +49,12 @@ button:hover{
     margin: auto;
     padding: 1rem;
     width: 60vh;
-    height: 30vh;
+    height: fit-content;
     border: 1px solid gray;
     margin-top: 3rem;
     font-family: 'Raleway', sans-serif;
     font-size: 1.3rem;
+}
+.result span{
+    color: red;
 }

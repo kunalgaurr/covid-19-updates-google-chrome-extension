@@ -29,13 +29,13 @@ const getData = (country) => {
     })
 
     .catch((err) => console.error(err));
-
-  if (response.data.recovered = null) {
-    location.innerHTML = 'Data not available';
-  }
 };
 
 submit.addEventListener('click', (e) => {
   e.preventDefault();
   getData(country.value);
+
+  if (recovered.innerHTML === null) {
+    recovered.innerHTML = 'Data Unavailable';
+  }
 });

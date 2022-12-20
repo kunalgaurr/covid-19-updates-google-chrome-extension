@@ -1,6 +1,0 @@
-recovered.innerHTML = response.
-deaths.innerHTML = response.
-confirmed.innerHTML = response.
-lastChecked.innerHTML = response.
-lastReported.innerHTML = response.
-location.innerHTML = response.
