@@ -9,6 +9,18 @@ const options = {
 const getData = (country) => {
   countryName.innerHTML = country;
 
+  const checking = (country) => {
+    return country.charAt(0) === String(country.charAt(0)).toLowerCase();
+  };
+
+  if (checking(country) === true) {
+    var capital = country.charAt(0).toUpperCase() + country.slice(1);
+    // storing the value of capital in country
+    country = capital;
+  } else {
+    console.log('Proceed as normal');
+  }
+
   fetch(
     'https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/total?country=' +
       country,
@@ -29,13 +41,13 @@ const getData = (country) => {
     })
 
     .catch((err) => console.error(err));
+
+  console.log(country.charAt(0));
+  console.log(checking(country));
+  console.log(capital);
 };
 
 submit.addEventListener('click', (e) => {
   e.preventDefault();
   getData(country.value);
-
-  if (recovered.innerHTML === null) {
-    recovered.innerHTML = 'Data Unavailable';
-  }
 });
