@@ -16,12 +16,17 @@ body{
     width: 14vh;
     height: 14vh;
 }
+.mainText{
+    font-family: 'Raleway', sans-serif;
+}
 input{
     border: 0px;
     border-bottom: 2px solid gray;
     margin: 10px;
     width: 61vh;
     font-family: 'Raleway', sans-serif;
+    outline: none;
+    font-size: 1.5rem;
 }
 select{
     border: 0px;
@@ -41,9 +46,11 @@ button:hover{
 }
 .result{
     margin: auto;
+    padding: 1rem;
     width: 60vh;
     height: 30vh;
     border: 1px solid gray;
     margin-top: 3rem;
-    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
 }
