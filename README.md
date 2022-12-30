@@ -1,6 +1,6 @@
 # Google Chrome Extension - COVID Updates
 
-The following projectg is an google chrome extension, It migh not be available on the google web store because the project is yet not published on that platform. This project is solely available in GitHub only. It is an educational purpose only and is owned by the auther only and is never intended to be used for commercial, or profit purpose.
+The following projectg is an google chrome extension, It migh not be available on the google web store because the project is yet not published on that platform. This project is solely available in GitHub only. It is an educational purpose application and is only owned by the auther and is not and never will be intended to be used for commercial, or profit purpose.
 
 ## About the App
 
